@@ -57,7 +57,7 @@ A minimalistic backend web application for an online shop built with Go, Gin fra
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/iamdanre/air_1.git
 cd shop-api
 ```
 
