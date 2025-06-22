@@ -1,0 +1,7 @@
+{
+  "id": 2,
+  "title": "Science Fiction Novel",
+  "description": "A thrilling sci-fi adventure.",
+  "price": 19.99,
+  "category": [2]
+}

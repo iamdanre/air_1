@@ -1,0 +1,35 @@
+Air Research Preview Program: home assignment task
+Task 1 : Backend API
+
+Imagine you are assigned to create a minimalistic backend web app for an online shop. The application should operate with the following data entities (the types are generic and provided for reference) :
+
+Customer
+• ID (integer)
+• Name (string)
+• Surname (string)
+• Email (string)
+
+ShopItemCategory
+• ID (integer)
+• Title (string)
+• Description (string)
+
+ShopItem
+• ID (integer)
+• Title (string)
+• Description (string)
+• Price (float)
+• Category (list of ShopItemCategory)
+
+OrderItem
+• ID (integer)
+• ShopItem (ShopItem)
+• Quantity (integer)
+
+Order
+• ID (integer)
+• Customer (Customer)
+• Items (list of OrderItem)
+
+Implement full CRUD APIs for entities Customer, ShopItemCategory, ShopItem, Order. Also add endpoint autotests for each endpoint.
+Use any data persistence implementation of your choice (but include initialisation of some test data). Include README on how to set up the project, run the application and run tests.
