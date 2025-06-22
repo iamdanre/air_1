@@ -1,4 +1,0 @@
-{
-    "plugins": [{"type":"add","pluginName":""},{"type":"add","pluginName":"com.github.catppuccin.fleet"}],
-    "excluded": [],
-}
