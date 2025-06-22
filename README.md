@@ -154,20 +154,7 @@ The application automatically initializes with test data including:
 - Sample categories (Electronics, Books)
 - Sample shop items (Smartphone, Science Fiction Novel)
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Run tests to ensure they pass
-6. Submit a pull request
-~~~
-
-~~~patch
-type=New
-path=fleet-file://lmengb9jdeaclg35ju0p/Users/booboo/air/air_1/Makefile?type=file&root=%252F
-~~~
+### Makefile
 ~~~makefile
 .PHONY: build run test clean docker-build docker-run
 
