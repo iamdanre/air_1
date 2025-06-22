@@ -1,0 +1,8 @@
+Flask>=2.0
+Flask-SQLAlchemy>=2.5
+SQLAlchemy>=1.4 # Or specific version compatible with Flask-SQLAlchemy
+pytest>=6.0
+# Werkzeug is a Flask dependency, usually handled by Flask install.
+# Jinja2 is a Flask dependency, usually handled by Flask install.
+# itsdangerous is a Flask dependency, usually handled by Flask install.
+# click is a Flask dependency, usually handled by Flask install.
